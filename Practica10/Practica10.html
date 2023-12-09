@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 10</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <section>
+        <h2>Tabla 1</h2>
+        <p>Una tabla con 3 filas y 3 columnas.</p>
+        <table style="width: 50%;">
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>Tabla 2</h2>
+        <p>Una tabla con 2 filas y 4 columnas.</p>
+        <table style="width: 50%;">
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>Tabla 3</h2>
+        <p>Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
+            tengan 3 celdas.</p>
+        <table style="width: 50%;">
+            <tr>
+                <td colspan="3">A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2>abla 4</h2>
+        <p>Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
+            columna 1 celda y la tercera columna 3 celdas (filas).</p>
+        <table style="width: 50%;">
+            <tr>
+                <td rowspan="2">A</td>
+            </tr>
+            <tr>
+                <td rowspan="3">C</td>
+                <td colspan="1">D</td>
+            </tr>
+            <tr>
+                <td rowspan="2">B</td>
+                <td colspan="1">F</td>
+            </tr>
+            <tr>
+                <td colspan="1">E</td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </section>     
+</body>
+</html>
