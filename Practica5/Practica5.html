@@ -29,17 +29,29 @@
         width: 80%;
         
       }
+      .menu{
+        position: fixed;
+        background-color: #992800; 
+        margin: 0%; 
+        padding: 0%;
+        width: 100%;
+      }
+      #imagen{
+        margin-top: 100px;
+      }
     </style>
   </head>
   <body style="margin: 0">
-    <div style="background-color: #992800; margin: 0%; padding: 0% 10%">
+    <div class="menu">
       <ul
         style="
           list-style-type: none;
           display: grid;
-          grid-template-columns: 250px 60px 80px 70px 40px 80px 80px 250px 30px 30px;
+          grid-template-columns: 25% 60px 80px 70px 40px 80px 80px 25% 30px 30px;
           align-items: center;
           justify-items: center;
+          padding-left: 10%;
+          padding-right: 10%;
         "
       >
         <a href="https://tinogasta.tur.ar/index.html"
@@ -66,9 +78,7 @@
         <a href="https://tinogasta.tur.ar/hoteles.html#contact"
           ><li style="color: white">Contactanos</li></a
         >
-        <a href="https://www.facebook.com/TinogastaTur"
-          ><img src="" alt=""
-        /></a>
+        <li></li>
         <a href="https://www.facebook.com/TinogastaTur"
           ><img src="face.JPG" alt=""
         /></a>
@@ -78,7 +88,7 @@
       </ul>
     </div>
     <div style="display: grid; justify-items: center; align-items: center">
-      <img src="Alojamiento.JPG" alt="alejamiento" width="900" height="200" />
+      <img id="imagen" src="Alojamiento.JPG" alt="alejamiento" width="900" height="200" />
     </div>
     <table>
         <!--falta terminar la tabla-->
